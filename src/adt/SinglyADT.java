@@ -21,5 +21,10 @@ public interface SinglyADT<E> {
 
     void sort();
 
+    /*
+  This method will print all the item in the list.
+   */
+    void print();
+
 
 }
