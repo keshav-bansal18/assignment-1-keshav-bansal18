@@ -15,5 +15,11 @@ public interface SinglyADT<E> {
         */
     int search(E item);
 
+    /**
+     * This method will sort the list based on their nodes' data in ascending order.
+     */
+
+    void sort();
+
 
 }
